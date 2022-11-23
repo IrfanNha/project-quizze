@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  -random : random(150)
+
+}
+
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(100,149,237,1) 0%, rgba(0,212,255,1) 68%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.wrapper p {
+  color: darkslategrey;
+  text-shadow: 4px 4px 2px rgba(100,149,237,0.4);
+}
+
+#pertanyaan {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+
+input {
+  padding: 8px;
+  margin: 4px;
+  border: solid aqua;
+  border-radius: 2px;
+  box-shadow: 2px 2px 4px -2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 2px 2px 4px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 4px -2px rgba(0,0,0,0.75);
+}
+
+button {
+  background-color: tomato;
+  margin-top: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  color: rgb(46, 46, 46);
+  border: solid rgb(255, 89, 60);
+  cursor: pointer;
+  box-shadow: 2px 2px 4px -2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 2px 2px 4px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 4px -2px rgba(0,0,0,0.75);
+}
+button:active {
+  transform: translateY(4px);
+}
+
+
